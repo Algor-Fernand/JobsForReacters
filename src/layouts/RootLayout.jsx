@@ -1,12 +1,14 @@
 import { NavLink, Outlet } from "react-router-dom";
 
-const activeLink = "bg-[#bc4123] rounded-md ring-1 ring-white px-2";
+const activeLink = "bg-[#bc4123] rounded-md ring-1 ring-white px-2 pt-1";
 export default function RootLayout() {
   return (
     <div>
       <header>
         <nav className="flex justify-between">
-          <h1 className="font-bold border-b-2 border-[#bc4123]">Jobarouter</h1>
+          <h1 className="font-bold border-b-2 border-[#bc4123] text-2xl">
+            Jobarouter
+          </h1>
           <div className="flex gap-5">
             <NavLink
               className={({ isActive }) => (isActive ? activeLink : "")}
