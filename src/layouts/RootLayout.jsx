@@ -22,6 +22,12 @@ export default function RootLayout() {
             </NavLink>
             <NavLink
               className={({ isActive }) => (isActive ? activeLink : "")}
+              to="carreers"
+            >
+              Carreers
+            </NavLink>
+            <NavLink
+              className={({ isActive }) => (isActive ? activeLink : "")}
               to="help"
             >
               Help
