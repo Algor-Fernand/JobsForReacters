@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <>
-      <h2>About Us</h2>
+      <h2 className="text-3xl mt-24 font-bold">About Us</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
         consequatur neque veritatis enim quaerat cum laborum soluta eum ullam,
